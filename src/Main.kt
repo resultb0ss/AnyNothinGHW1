@@ -1,3 +1,7 @@
 fun main() {
-    println("Hello World!")
+    val firstStr:Any = "{([])}"
+    val secondStr:Any = "{(])}"
+    val thirdStr:Any = "{([])}"
+    println(firstStr == secondStr)
+    println(firstStr == thirdStr)
 }
